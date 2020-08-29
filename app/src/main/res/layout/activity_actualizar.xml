@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llPadre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".ActualizarActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginBottom="@dimen/botton"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#006064"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/botton"
+        android:ems="20"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloFecha"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="@dimen/botton">
+
+        <EditText
+            android:id="@+id/etDia"
+            android:layout_width="@dimen/anchoDd"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dia"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/etMes"
+            android:layout_width="@dimen/anchoMm"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Mes"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/etYear"
+            android:layout_width="@dimen/anchoAa"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Year"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnFecha"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="@dimen/anchoMm"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_month"
+            android:elevation="@dimen/anchoDd"
+            android:gravity="center"
+            android:stateListAnimator="@android:anim/anticipate_overshoot_interpolator"
+            android:textAppearance="@style/botonReised" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/botton"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/botton"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tab"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/descripcion"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnSeguir"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+        android:onClick="Continuar"
+        android:text="@string/continuar"
+        android:textAppearance="@style/botonReised" />
+</LinearLayout>
+

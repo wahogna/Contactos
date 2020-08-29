@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="top">15dp</dimen>
+<dimen name="left">15dp</dimen>
+<dimen name="right">15dp</dimen>
+<dimen name="botton">15dp</dimen>
+<dimen name="tab">20dp</dimen>
+<dimen name="anchoDd">60sp</dimen>
+<dimen name="anchoMm">60sp</dimen>
+<dimen name="anchoAa">80sp</dimen>
+<dimen name="altoFecha">0dp</dimen>
+</resources>

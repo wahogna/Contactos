@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="dateOfBird">dd/mm/aaaa</string>
+    <string name="telefono">Teléfono: </string>
+    <string name="email">EMail:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="botonNext">Continuar</string>
+    <string name="botonEditar">Editar Datos</string>
+    <string name="dia">dia</string>
+    <string name="Mes">Mes</string>
+    <string name="Year">Año</string>
+    <string name="titulo">Registro de Contacto</string>
+    <string name="tituloFecha">Fecha de Nacimiento   (dd/mm/aaaa)</string>
+    <string name="Fecha">dd/mm/aaaa</string>
+    <string name="tlFecha">Fecha de Nacimiento:</string>
+    <string name="tlConfirmar">Confirmar Datos</string>
+    <string name="continuar">Confirmar Datos</string>
+    <string name="Calendario">Calendario</string>
+</resources>
